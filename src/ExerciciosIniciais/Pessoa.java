@@ -59,23 +59,3 @@ public class Pessoa {
     }
 
 }
-
-public class Main {
-    public static void main(String[] args) {
-
-        Pessoa objPessoa = new Pessoa();
-
-        objPessoa.setNome("Wallace");
-        objPessoa.setIdade(20);
-        objPessoa.setCpf("546.540.204-09"); 
-        objPessoa.setEtnia("Branca"); 
-        objPessoa.setNacionalidade("Brasileira");
-        objPessoa.setRg("65.766.897-X");
-        
-        System.out.println("Usuario " + objPessoa.getNome() +
-                " tem " + objPessoa.getIdade() + " anos" + "Tem CPF" + objPessoa.getCpf() 
-                   + "e Possui a Etnia" + objPessoa.getEtnia()+ "Nacionalidade" + objPessoa.getNacionalidade()
-                        + "Possuindo o RG"+ objPessoa.getRg()
-        );
-    }
-}
